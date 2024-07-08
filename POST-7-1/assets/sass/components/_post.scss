@@ -13,21 +13,13 @@
   }
   
   &__img {
-<<<<<<< HEAD
-    border-radius: 8px;
-=======
     border-radius: $border-rounded;
->>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb
     margin-bottom: 1.5rem;
     object-fit: cover; // No deforma la imagen
   }
 }
 
-<<<<<<< HEAD
-// Clase Utilitaria
-=======
 // Clase Modificadora
->>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb
 .v-post--small {
   width: 18rem;
 
@@ -56,11 +48,7 @@
 
   &__img {
     height: 100%;
-<<<<<<< HEAD
-    border-radius: 8px;
-=======
     border-radius: $border-rounded;
->>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb
     margin-right: 1rem;
     width: calc($horizontal-post-height + 0.5rem);
     object-fit: cover;
@@ -72,9 +60,6 @@
   }
 }
 
-<<<<<<< HEAD
-
-=======
 .post-full-screen {
   width: 100%;
   margin-top: 1.5rem;
@@ -93,4 +78,3 @@
     width: 80%;
   }
 }
->>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb

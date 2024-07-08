@@ -1,34 +1,5 @@
 @charset 'UTF-8';
 
-<<<<<<< HEAD
-//1. Abstracts
-@import 'abstracts/variables', 
-'abstracts/mixins';
-
-//2. Vendors (boostrap)
-
-//3. Base
-@import 'base/reset', 
-'base/typography';
-
-//4. Layout
-@import './layout/container';
-
-
-//5. Components
-@import 'components/logo',
-'components/post', 
-'components/user', 
-'components/categorias';
-
-
-//6. Pages
-
-//7. Themes
-@import 'themes/theme';
-
-//8. Shame
-=======
 // 1.- Abstracts
 @import 
   'abstracts/variables',
@@ -61,5 +32,4 @@
   'theme/theme';
 
 // 8.- shame
->>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb
 @import 'shame/shame';
