@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // sections container
 .section {
   border-top: solid 2px $grey;
@@ -5,6 +6,8 @@
   padding: 2rem 5rem;
 }
 
+=======
+>>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb
 // Container para dar flexbox horizontal
 .h-container {
   width: 100%;
@@ -22,7 +25,10 @@
   padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb
 // Contenedor tipo aside con dirección en columnas
 .aside-container {
   margin-left: 2rem;
@@ -33,4 +39,11 @@
   }
 }
 
+<<<<<<< HEAD
 
+=======
+// section container estructura
+.section {
+  @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width);
+}
+>>>>>>> 3ae35f2ae826e9ea7a9b2b4741ebea9a5a48c3eb
