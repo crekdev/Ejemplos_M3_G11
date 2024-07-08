@@ -36,4 +36,37 @@ body {
   border: none;
 }
 
+.form {
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  margin-inline: 4rem;
+}
+.form__container {
+  padding: 0.5rem;
+}
+.form__label {
+  display: block;
+  text-align: start;
+  padding-bottom: 0.2rem;
+}
+.form__input-text {
+  width: 100%;
+}
+.form__input-date {
+  width: 100%;
+}
+.form__select {
+  width: 100%;
+}
+.form .button {
+  padding: 0.5rem 1.5rem;
+}
+.form .button--default {
+  background-color: #E94F37;
+  color: white;
+  border: none;
+  font-size: medium;
+}
+
 /*# sourceMappingURL=style.css.map */
