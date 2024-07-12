@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://kit.fontawesome.com/0e44dc81b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="assets/img/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Carrera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Blog</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="row g-4 justify-content-center text-center">
+      <div class="col-12 col-md-6">
+        <i class="fa-solid fa-graduation-cap fs-1"></i>
+        <p>Estudiantes</p>
+      </div>
+      <div class="col-12 col-md-6 border-bottom border-success border-5 border-rounded">
+        <i class="fa-solid fa-chalkboard-user fs-1"></i>
+        <p>Docentes</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <i class="fa-solid fa-people-arrows fs-1"></i>
+        <p>Colaboradores</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <i class="fa-solid fa-newspaper fs-1"></i>
+        <p>Posts</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-outline-success">Nuevo</button>
+
+        <div class="table-responsive mt-3">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Email</th>
+                <th scope="col">Carrera</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Gerardo</td>
+                <td>Norambuena</td>
+                <td>gerardo@gmail.com</td>
+                <td>Desarrollo FrontEnd</td>
+                <td>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                    <button type="button" class="btn btn-outline-warning">Modificar</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Fernando</td>
+                <td>Cifuentes</td>
+                <td>fercifuentes@gmail.com</td>
+                <td>Desarrollo Full Stack JavaScript</td>
+                <td>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                    <button type="button" class="btn btn-outline-warning">Modificar</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Diego</td>
+                <td>Atenas</td>
+                <td>diegoatenas@gmail.com</td>
+                <td>Data Science</td>
+                <td>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-danger">Eliminar</button>
+                    <button type="button" class="btn btn-outline-warning">Modificar</button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
